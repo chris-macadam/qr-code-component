@@ -9,11 +9,15 @@
 body {
   font-family: 'Outfit', sans-serif;
   background-color:  hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .container {
   max-width: 360px;
-  margin: auto auto;
+  margin: 0 auto;
+
 }
 
 .card {
